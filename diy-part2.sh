@@ -22,6 +22,4 @@ sed -i 's/192.168.1.1/192.168.0.1/g' package/base-files/files/bin/config_generat
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
-git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/lean/passwall-packages
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/luci-app-passwall
 git clone https://github.com/gdy666/luci-app-lucky.git package/lean/luci-app-lucky
