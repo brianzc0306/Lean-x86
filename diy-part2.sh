@@ -23,3 +23,6 @@ sed -i 's/192.168.1.1/192.168.0.1/g' package/base-files/files/bin/config_generat
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 #git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
+
+rm -rf package/feeds/packages/lucky      # 删除官方 feed 中的包
+rm -rf package/feeds/luci/luci-app-lucky # 删除 Luci feed 中的包
